@@ -1,0 +1,9 @@
+[project]
+name = "legal-matter-domain-handoff"
+version = "0.1.0"
+description = "Legal matter custom-domain onboarding with verified webhooks."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
